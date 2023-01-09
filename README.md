@@ -24,7 +24,11 @@
 
 ## Endpoints
 
+### Gateway
+
+A URI principal onde estão reunidos todos os endpoints é **http://localhost:8082/**
+
 ### API Pedidos ( /apipedidos/pedidos ):
 
-- [POST]: cria pedido
+- *[POST]*: Cria um pedido | Adicione um JSON no corpo da requisição com os atributos "idDeEstoque" e "quantidade". 
 
