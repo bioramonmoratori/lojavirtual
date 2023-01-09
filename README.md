@@ -1,6 +1,6 @@
-<div align="center">
-  # Back-End - Loja Virtual
-</div>
+<h1 align="center">
+  Back-End - Loja Virtual
+</h1>
 
 <p>
   Projeto de uma loja virtual com controle de estoque de produtos físicos. A aplicação conta com arquitetura de microsserviços e comunicação em mensageria.
