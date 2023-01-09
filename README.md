@@ -74,3 +74,5 @@ A URI principal onde estão reunidos todos os endpoints é **http://localhost:80
 ## Fluxo do Projeto
 
 ## Contatos
+- LinkedIn: https://www.linkedin.com/in/ramon-moratori-86a558243/
+- E-mail: ramon.moratori@estudante.ufjf.br
