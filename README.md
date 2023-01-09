@@ -13,6 +13,6 @@
 - `API de Pagamentos`: *Em construção*
 
 ## Tecnologias Utilizadas
-- <font color="#FFF000F">Java</font>
+- <font color="#f77f00">Java</font>
 
 
