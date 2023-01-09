@@ -22,6 +22,7 @@
 - Docker [v.2.10.21]
 - Maven [v.4.0.0]
 
+
 ## Endpoints
 
 ### Gateway
@@ -68,6 +69,7 @@ A URI principal onde estão reunidos todos os endpoints é **http://localhost:80
 ```
 
 - `DELETE` "/deletarproduto/{id}" : *Deleta um produto no estoque pelo ID* | Path Variable
+
 
 ## Fluxo do Projeto
 
