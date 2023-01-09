@@ -67,4 +67,4 @@ A URI principal onde estão reunidos todos os endpoints é **http://localhost:80
   
 ```
 
-- `POST` "/cadastrarproduto": *Cadastra um novo produto no estoque* | JSON - Body Parameter:
+- `DELETE` "/deletarproduto/{id}": *Deleta um produto no estoque pelo ID* | Path Variable
