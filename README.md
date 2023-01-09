@@ -75,7 +75,7 @@ A URI principal onde estão reunidos todos os endpoints é **http://localhost:80
 
 Para rodar este projeto, é necessário instalar o Docker e o banco de dados MariaDB via terminal.
 
-Feito isso, inicializaremos uma instância do RabbitMQ via Docker. Assim, as API's poderão se comunicar entre si. Digite o seguinte comando no terminal e deixe rodando, sem fechá-lo:
+Feito isso, inicializaremos uma instância do RabbitMQ via Docker. Assim, as API's poderão comunicar entre si. Digite o seguinte comando no terminal e deixe rodando, sem fechá-lo:
 ```
 sudo docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.11-management
 
@@ -87,6 +87,12 @@ Abra um novo terminal e inicie o banco de dados através do comando:
 sudo service mysql start
 ```
 *É importante ressaltar que o código está configurado para um usuário chamado "root" e senha "root", na porta 3306*
+
+Por fim, rode as aplicações nesta ordem:
+- `1º`  Server
+- `2º`  Gateway
+- `3º`  API Produtos
+- `4º`  API Pedidos
 
 ## Contatos
 
