@@ -98,6 +98,9 @@ Por fim, rode as aplicações nesta ordem:
 
 ## Fluxo do Projeto
 
+![ProjetoLojaVirtual (1)](https://user-images.githubusercontent.com/90486302/211398111-57f6bfd8-b13a-42d0-8ead-b77d2411c7ae.jpg)
+
+
 ## Contatos
 
 - `LinkedIn` : https://www.linkedin.com/in/ramon-moratori-86a558243/
