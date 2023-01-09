@@ -52,4 +52,19 @@ A URI principal onde estão reunidos todos os endpoints é **http://localhost:80
 
 ### API Produtos ( /apiprodutos/produtos ):
 
+- *[GET] "/": Lista todos os produtos do estoque*
+- *[POST] "/cadastrarproduto": Cadastra um novo produto no estoque* | JSON - Body Parameter:
+
+```
+{
+    "titulo":"PS4",
+    "descricao":"PS4 + 2 Controles",
+    "valorUnitario":2500.00,
+    "estoqueDisponivel":5,
+    "estoqueReservado":2,
+    "estoqueVendido":0
+}
+  
+```
+
 - *[POST] "/cadastrarproduto": Cadastra um novo produto no estoque* | JSON - Body Parameter:
