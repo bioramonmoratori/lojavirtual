@@ -71,7 +71,7 @@ A URI principal onde estão reunidos todos os endpoints é **http://localhost:80
 - `DELETE` "/deletarproduto/{id}" : *Deleta um produto no estoque pelo ID* | Path Variable
 
 
-## Fluxo do Projeto
+## Rodando Projeto
 
 Para rodar este projeto, é necessário instalar o Docker e o banco de dados MariaDB via terminal.
 
@@ -93,6 +93,8 @@ Por fim, rode as aplicações nesta ordem:
 - `2º`  Gateway
 - `3º`  API Produtos
 - `4º`  API Pedidos
+
+## Fluxo do Projeto
 
 ## Contatos
 
