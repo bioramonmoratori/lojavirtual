@@ -16,7 +16,7 @@
 
 - Java [v.17]
 - RabbitMQ [v.3.11]
-- Spring (JPA, REST, Eureka, AMQP) [v.2.7.6]
+- Spring (JPA, REST, Cloud-Netflix, AMQP) [v.2.7.6]
 - MariaDB [v.10.6.11] 
 - Postman
 - Docker
