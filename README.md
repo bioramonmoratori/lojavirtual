@@ -22,3 +22,9 @@
 - Docker [v.2.10.21]
 - Maven [v.4.0.0]
 
+## Endpoints
+
+### API Pedidos ( /apipedidos/pedidos ):
+
+- [POST]: cria pedido
+
