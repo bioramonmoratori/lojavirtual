@@ -12,4 +12,7 @@
 - `API de Pedidos`: Cria e gerencia requisições de pedidos, estabelecendo comunicação com os demais serviços
 - `API de Pagamentos`: *Em construção*
 
+## Tecnologias Utilizadas
+- `#FFFFFF`
+
 
