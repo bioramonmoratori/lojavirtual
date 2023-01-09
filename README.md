@@ -1,7 +1,9 @@
-#Back-End - Loja Virtual
+<div align="center">
+  # Back-End - Loja Virtual
+</div>
 
 <p>
-Projeto de uma loja virtual com controle de estoque de produtos físicos. A aplicação conta com arquitetura de microsserviços e comunicação em mensageria.
+  Projeto de uma loja virtual com controle de estoque de produtos físicos. A aplicação conta com arquitetura de microsserviços e comunicação em mensageria.
 </p>
 
 ## :hammer: Microsserviços
