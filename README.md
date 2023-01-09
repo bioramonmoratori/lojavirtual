@@ -30,21 +30,26 @@ A URI principal onde estão reunidos todos os endpoints é **http://localhost:80
 
 ### API Pedidos ( /apipedidos/pedidos ):
 
-- *[POST]: Cria um pedido* >> JSON - Body Parameter:
+- *[POST]: Cria um pedido* | JSON - Body Parameter:
 
 ```
   {
     "listaDeProdutos":[
       {
-        "quantidade":1,
-        "idDeEstoque":2
+        "idDeEstoque":1,
+        "quantidade":1
       },
       {
-        "quantidade":1,
-        "idDeEstoque":3
+        "idDeEstoque":2,
+        "quantidade":3
       }
     ]
   }
   
 ```
 
+*o id de estoque representa o número do ID do produto contido no banco de dados da API de Produtos* 
+
+### API Produtos ( /apiprodutos/produtos ):
+
+- *[POST] "/cadastrarproduto": Cadastra um novo produto no estoque* | JSON - Body Parameter:
