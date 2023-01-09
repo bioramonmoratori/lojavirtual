@@ -30,5 +30,21 @@ A URI principal onde estão reunidos todos os endpoints é **http://localhost:80
 
 ### API Pedidos ( /apipedidos/pedidos ):
 
-- *[POST]*: Cria um pedido | Adicione um JSON no corpo da requisição com os atributos "idDeEstoque" e "quantidade". 
+- *[POST]: Cria um pedido* >> JSON - Body Parameter:
+
+```
+  {
+    "listaDeProdutos":[
+      {
+        "quantidade":1,
+        "idDeEstoque":2
+      },
+      {
+        "quantidade":1,
+        "idDeEstoque":3
+      }
+    ]
+  }
+  
+```
 
