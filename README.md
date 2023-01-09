@@ -12,6 +12,8 @@
 - `API de Pedidos`: Cria e gerencia requisições de pedidos, estabelecendo comunicação com os demais serviços
 - `API de Pagamentos`: *Em construção*
 
+![ProjetoLojaVirtual](https://user-images.githubusercontent.com/90486302/211391658-f07ce400-0600-43e5-b473-430307044d1b.jpg)
+
 ## Tecnologias Utilizadas
 
 - Java [v.17]
