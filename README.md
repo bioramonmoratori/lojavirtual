@@ -13,6 +13,12 @@
 - `API de Pagamentos`: *Em construção*
 
 ## Tecnologias Utilizadas
-- <font bgcolor="#f77f00">Java</font>
 
+- Java
+- RabbitMQ
+- Spring (JPA, REST, Eureka, AMQP)
+- MySQL
+- Postman (teste de requisições)
+- Docker
+- Maven
 
