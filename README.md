@@ -73,6 +73,15 @@ A URI principal onde estão reunidos todos os endpoints é **http://localhost:80
 
 ## Fluxo do Projeto
 
+Para iniciar o projeto, é necessário rodar uma aplicação do RabbitMQ via docker, através do comando:
+```
+sudo docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.11-management
+
+```
+Referência: https://www.rabbitmq.com/download.html
+
+
 ## Contatos
+
 - `LinkedIn` : https://www.linkedin.com/in/ramon-moratori-86a558243/
 - `E-mail` : ramon.moratori@estudante.ufjf.br
