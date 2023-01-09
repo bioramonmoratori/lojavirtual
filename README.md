@@ -18,7 +18,7 @@
 - RabbitMQ [v.3.11]
 - Spring (JPA, REST, Eureka, AMQP) [v.2.7.6]
 - MariaDB [v.10.6.11] 
-- Postman (teste de requisições)
+- Postman
 - Docker
 - Maven [v.4.0.0]
 
