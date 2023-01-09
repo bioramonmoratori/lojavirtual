@@ -80,7 +80,7 @@ Feito isso, inicializaremos uma instância do RabbitMQ via Docker. Assim, as API
 sudo docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.11-management
 
 ```
-*Referência: https://www.rabbitmq.com/download.html
+*Referência: https://www.rabbitmq.com/download.html*
 
 Abra um novo terminal e inicie o banco de dados através do comando:
 ```
