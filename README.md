@@ -14,7 +14,7 @@
 
 ## Tecnologias Utilizadas
 
-- Java
+- Java [v.17]
 - RabbitMQ
 - Spring (JPA, REST, Eureka, AMQP)
 - MySQL
