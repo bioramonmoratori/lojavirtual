@@ -104,6 +104,8 @@ A principal funcionalidade da loja virtual é a de criar pedidos e solicitá-los
 
 A requisição inicial terá os demais valores nulos (exceto os obrigatórios), pois é função do estoque repassar informações detalhadas dos produtos, como por exemplo: valor unitário, título, descrição etc. Com a chegada da requisição para o estoque, é feita uma verificação se os produtos passados existem e se há quantidades suficiente para suprir o pedido. Caso esteja tudo OK, os produtos são reservados. O mecanismo de reserva funciona através da mudança dos valores da coluna "pedidos_disponiveis" para a coluna "pedidos_reservados" no banco de dados. Feito isso, é retornado para a `API Pedidos`, os dados do pedido detalhado e o ID de indentificação do pedido,. Em caso de erro durante a verificação, é retornado o ID do pedido seguido de uma lista nula de produtos.
 
+Por fim, ao ouvir a mensagem de retorno do pedido, a `API Pedidos` armazena no seu banco de dados os detalhes do pedido e muda o status de PROCESSANDO para AGUARDANDO_CONFIRMACAO_DE_PAGAMENTO. Em caso nulo, o status é alterado para RECUSADO. Para prosseguir o fluxo da loja virtual, já foi criada a fila "estoque.aguardandopagamento" para possibilitar que a `API Pagamentos` faça os devidos procedimentos, em sua implementação futuramente.
+
 ## Contatos
 
 - `LinkedIn` : https://www.linkedin.com/in/ramon-moratori-86a558243/
