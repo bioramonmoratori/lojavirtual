@@ -19,6 +19,6 @@
 - Spring (JPA, REST, Cloud-Netflix, AMQP) [v.2.7.6]
 - MariaDB [v.10.6.11] 
 - Postman
-- Docker
+- Docker [v.2.10.21]
 - Maven [v.4.0.0]
 
