@@ -24,11 +24,11 @@
 
 ## Endpoints
 
-### - Gateway
+### Gateway
 
 A URI principal onde estão reunidos todos os endpoints é **http://localhost:8082/**
 
-### - API Pedidos ( /apipedidos/pedidos ):
+### API Pedidos ( /apipedidos/pedidos ):
 
 - `POST`  "/" : *Cria um pedido* | JSON - Body Parameter:
 
@@ -50,7 +50,7 @@ A URI principal onde estão reunidos todos os endpoints é **http://localhost:80
 
 *o id de estoque representa o número do ID do produto contido no banco de dados da API de Produtos* 
 
-### - API Produtos ( /apiprodutos/produtos ):
+### API Produtos ( /apiprodutos/produtos ):
 
 - `GET`  "/" : *Lista todos os produtos do estoque*
 - `POST` "/cadastrarproduto" : *Cadastra um novo produto no estoque* | JSON - Body Parameter:
