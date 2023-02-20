@@ -28,6 +28,10 @@
 
 ## Endpoints
 
+### Swagger
+
+Para encontrar a documentação gerada automaticamente pelo Swagger, acesse o endpoint "/apiprodutos/swagger-ui.html" ou "/apipedidos/swagger-ui.html/"
+
 ### Gateway
 
 A URI principal onde estão reunidos todos os endpoints é **http://localhost:8082/**
