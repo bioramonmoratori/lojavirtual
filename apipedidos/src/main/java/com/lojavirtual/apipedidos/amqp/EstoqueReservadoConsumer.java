@@ -14,7 +14,7 @@ public class EstoqueReservadoConsumer {
 	@RabbitListener(queues = "estoque.reservado")
 	public void processMessage(CadastroDePedidoDto cadastroDePedidoDto) { 
 		
-		String uri = "http://localhost:8082/apipedidos/pedidos/pedidoReservadoEmEstoque";
+		String uri = "http://localhost:8080/apipedidos/pedidos/pedidoReservadoEmEstoque/";
 		restTemplate.postForObject(uri, cadastroDePedidoDto, Void.class);
 		
 	}
